@@ -1,0 +1,41 @@
+.navbar {
+  width: 100%;
+  background: var(--color-black);
+
+  &__first {
+    height: 44px;
+  }
+
+  &__first {
+    display: flex;
+  }
+
+  &__firstIconSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__firstIconSearch,
+  &__firstIconLogin {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+
+  &__searchDesc,
+  &__loginDesc {
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-family: var(--font-dmsans);
+    font-weight: 400;
+    line-height: 15px;
+    margin-left: 8px;
+  }
+
+  &__firstIcon {
+    width: 20px;
+    height: 20px;
+  }
+}

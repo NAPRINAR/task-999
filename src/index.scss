@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@font-face {
+  font-family: 'ClashDisplay-Regular';
+  src: url('./assets/fonts/clash/ClashDisplay-Regular.woff2') format('woff2'),
+    url('./assets/fonts/clash/ClashDisplay-Regular.woff') format('woff'),
+    url('./assets/fonts/clash/ClashDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+:root {
+  --color-vermilon: #ff460e;
+  --color-perfume: #e4d1fc;
+  --color-gorse: #fffc46;
+  --color-black: #191919;
+  --color-white: #ffffff;
+
+  --font-title-header: 56px;
+  --font-family-header: 'ClashDisplay-Regular';
+  --font-weight-semibold: 400;
+
+  --font-dmsans: 'DM Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  //   @media (max-width: 1000px) {
+  //     width: 800px;
+  //     margin: 0 auto;
+  //   }
+}
